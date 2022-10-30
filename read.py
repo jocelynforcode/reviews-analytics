@@ -48,8 +48,8 @@ while True:
 	if word == 'q':
 		break
 	if word in wc:
-	print(word, '出現過的次數為:', wc[word])
-else:
-	print('這個字沒有出現過')
+		print(word, '出現過的次數為:', wc[word])
+	else:
+		print('這個字沒有出現過')
 
 print('感謝使用本查詢功能')
